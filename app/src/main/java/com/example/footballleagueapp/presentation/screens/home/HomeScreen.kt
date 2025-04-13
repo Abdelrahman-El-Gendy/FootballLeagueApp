@@ -1,8 +1,7 @@
-package com.example.footballleagueapp
+package com.example.footballleagueapp.presentation.screens.home
 
 import AreaWithCompetitions
 import Competition
-import android.R.attr.onClick
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -35,7 +34,6 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCompositionContext
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -44,7 +42,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil3.compose.AsyncImage
-import com.example.footballleagueapp.CompetitionItem
+import com.example.footballleagueapp.presentation.screens.FootballViewModel
+import com.example.footballleagueapp.R
+import com.example.footballleagueapp.presentation.screens.UiState
 
 
 @Composable

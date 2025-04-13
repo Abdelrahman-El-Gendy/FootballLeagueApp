@@ -1,4 +1,4 @@
-package com.example.footballleagueapp
+package com.example.footballleagueapp.presentation.screens
 
 import AreaWithCompetitions
 

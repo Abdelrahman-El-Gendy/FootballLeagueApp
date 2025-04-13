@@ -7,6 +7,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.footballleagueapp.presentation.screens.FootballViewModel
+import com.example.footballleagueapp.presentation.screens.detail.CompetitionDetailScreen
+import com.example.footballleagueapp.presentation.screens.home.HomeScreen
 
 @Composable
 fun FootballApp() {

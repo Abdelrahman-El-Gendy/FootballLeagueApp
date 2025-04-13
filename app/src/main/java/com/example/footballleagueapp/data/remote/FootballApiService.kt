@@ -1,4 +1,4 @@
-package com.example.footballleagueapp
+package com.example.footballleagueapp.data.remote
 
 import Root
 import retrofit2.Response

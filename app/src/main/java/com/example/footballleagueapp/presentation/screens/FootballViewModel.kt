@@ -1,4 +1,4 @@
-package com.example.footballleagueapp
+package com.example.footballleagueapp.presentation.screens
 
 import AreaWithCompetitions
 import Competition
@@ -6,6 +6,7 @@ import Root
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.footballleagueapp.presentation.screens.UiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -13,7 +14,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Header
-
 
 class FootballViewModel : ViewModel() {
     // API Configuration

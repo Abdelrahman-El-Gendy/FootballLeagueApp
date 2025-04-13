@@ -1,4 +1,4 @@
-package com.example.footballleagueapp
+package com.example.footballleagueapp.presentation.screens.detail
 
 import Competition
 import androidx.compose.foundation.layout.Box
@@ -28,6 +28,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
+import com.example.footballleagueapp.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
